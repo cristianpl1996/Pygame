@@ -15,7 +15,7 @@ def main():
 			if evento.type == QUIT:
 				pygame.quit()
 				sys.exit()
-		reloj.tick(20)
+		reloj.tick(30)
 		pantalla.fill((0,0,0))
 		pygame.display.update()
 
