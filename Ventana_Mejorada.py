@@ -1,11 +1,9 @@
 # Modulos
 import pygame, sys
 from pygame.locals import *
-
 # Constantes.
-WIDTH=300
-HEIGHT=300
-
+WIDTH=400
+HEIGHT=400
 # Clases y Funciones.
 def main():
 	pygame.init()
