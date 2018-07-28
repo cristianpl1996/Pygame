@@ -16,7 +16,7 @@ def main():
 				pygame.quit()
 				sys.exit()
 		reloj.tick(20)
-		pantalla.fill((255,255,255))
+		pantalla.fill((0,0,0))
 		pygame.display.update()
 
 if __name__ == "__main__":
