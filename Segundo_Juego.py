@@ -7,7 +7,7 @@ class Recs(object):
 		for x in xrange(numeroinicial):
 			leftrandom=random.randrange(2,560)
 			toprandom=random.randrange(-580,-10)
-			width=random.randrange(10,30)
+			width=random.randrange(20,30)
 			height=random.randrange(15,30)
 			self.lista.append(pygame.Rect(leftrandom,toprandom,width,height))	
 	def reagregar(self):
