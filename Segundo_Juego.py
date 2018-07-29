@@ -23,7 +23,7 @@ class Recs(object):
 			rectangulo.move_ip(0,2)			
 	def pintar(self,superficie):
 		for rectangulo in self.lista:
-			pygame.draw.rect(superficie,(0,0,255),rectangulo)
+			pygame.draw.rect(superficie,(255,255,255),rectangulo)
 
 class Player(pygame.sprite.Sprite):
 	def __init__(self, imagen):
